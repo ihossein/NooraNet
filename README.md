@@ -37,6 +37,6 @@ You can support this project by sending your Love 💕
 * XRP: rBZrcfiGxPBCsthfYQTxK6NLJHsicF7GDD
 * LTC: M8L9F473iYjeZGnTQBPKoGdCDcAWDrEkZP
 
-# ⭐ Special thanks
+# ⭐Special thanks
 * CF-vless code author 3Kmfi6HP
 * CF preferred IP program author badafans, XIU2
