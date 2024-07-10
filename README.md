@@ -1,3 +1,12 @@
+<p align="center">
+  <a href="https://x.com/HosseinKouhsari" target="blank"><img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/HosseinKouhsari"></a><br>
+  <img src="https://camo.githubusercontent.com/620fe3bf9a0ff1fec8be16dcd95da0295cb3aaaa5bb026fe8650225d2f1e1f7a/68747470733a2f2f6b6f6d617265762e636f6d2f67687076632f3f757365726e616d653d69686f737365696e266c6162656c3d50726f66696c65253230766965777326636f6c6f723d306537356236267374796c653d666c6174" alt="ihossein" />
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/ihossein/NooraNet">
+  <img alt="Static Badge" src="https://img.shields.io/badge/Made_with_LOVE-In_Tehran-blue">
+
+</p>
+
+
 # NooraNet🌿
 Free VPN proxy based on V2ray with Cloudflare! ⚡
 
