@@ -44,6 +44,9 @@ You can support this project by sending your Love 💕
 * BTC: 343GKzK5XdDMxFrVTpAcHfDcVTEPgM24JE
 * XRP: rBZrcfiGxPBCsthfYQTxK6NLJHsicF7GDD
 * LTC: M8L9F473iYjeZGnTQBPKoGdCDcAWDrEkZP
+* TON: UQCIw0Uggw7XCIIPCe3180TuBmpzok3eNFFpXHflgFHGkgW7
+
+
 
 # ⭐Special thanks
 * CF-vless code author 3Kmfi6HP
