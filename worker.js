@@ -1,9 +1,8 @@
-// Worker.js (NooraNet 🌿 CF)
-// Made with ❤️ in Tehran by Hossein Kouhsari
+// Worker.js (NooraNet🌿 Panel) for Cloudflare!
+// Made with ❤️ in Tehran
 // Free use only! ☺️
 
-// Web-Panel providing Worker subscriptions and Fragment settings and configs, providing configs for cross-platform clients
-
+// Web-Panel providing Worker subscriptions and Fragment settings and configs, providing configs for cross-platform clients using 
 // https://github.com/ihossein/NooraNet
 
 import { connect } from 'cloudflare:sockets';
@@ -1625,7 +1624,7 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
             <tr>
                 <td>
                     ${config.address === 'Best-Ping' 
-                        ? `<div  style="justify-content: center;"><span><b>Best-Ping 💥</b></span></div>` 
+                        ? `<div  style="justify-content: center;"><span><b>Best Ping 💥</b></span></div>` 
                         : config.address === 'WorkerLess'
                             ? `<div  style="justify-content: center;"><span><b>Workerless ⭐</b></span></div>`
                             : config.address === 'Best-Fragment'
@@ -2578,13 +2577,11 @@ const renderLoginPage = async () => {
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NooraNet 🌿 User Login</title>
+    <title>NooraNet🌿 User Login</title>
     <style>
-
-        html, body { height: 100%; margin: 0; }
+        html, body { height: 100%; }
         body {
             font-family: system-ui;
-            background-color: #f9f9f9;
             position: relative;
             overflow: hidden;
         }
@@ -2595,7 +2592,7 @@ const renderLoginPage = async () => {
             transform: translate(-50%, -50%);
             width: 90%;
         }
-        h1 { font-size: 2.5rem; text-align: center; color: #09639f; margin: 0 auto 30px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25); }        
+        h1 { font-size: 3em; text-align: center; color: #3b3b3b; text-shadow: 1px 1px 15px #FFFFFF; }
         h2 {text-align: center;}
         .form-container {
             background: #f9f9f9;
@@ -2638,12 +2635,59 @@ const renderLoginPage = async () => {
         @media only screen and (min-width: 768px) {
             .container { width: 30%; }
         }
+
+        .bg {
+            animation:slide 3s ease-in-out infinite alternate;
+            background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+            bottom:0;
+            left:-50%;
+            opacity:.5;
+            position:fixed;
+            right:-50%;
+            top:0;
+            z-index:-1;
+          }
+          
+          .bg2 {
+            animation-direction:alternate-reverse;
+            animation-duration:4s;
+          }
+          
+          .bg3 {
+            animation-duration:5s;
+          }
+          
+          .content {
+            background-color:rgba(255,255,255,.8);
+            border-radius:.25em;
+            box-shadow:0 0 .25em rgba(0,0,0,.25);
+            box-sizing:border-box;
+            left:50%;
+            padding:10vmin;
+            position:fixed;
+            text-align:center;
+            top:50%;
+            transform:translate(-50%, -50%);
+          }
+          
+          @keyframes slide {
+            0% {
+              transform:translateX(-25%);
+            }
+            100% {
+              transform:translateX(25%);
+            }
+          }
+
     </style>
 <script src="https://cdn.counter.dev/script.js" data-id="8bf8fc84-761f-4d08-8859-f680eadc69ce" data-utcoffset="4"></script>
     </head>
     <body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
         <div class="container">
-            <h1>NooraNet 🌿 Panel</h1>
+            <h1>NooraNet🌿 Panel</h1>
             <div class="form-container">
                 <h2>User Login</h2>
                 <form id="loginForm">
@@ -2701,13 +2745,12 @@ const renderErrorPage = (message, error, refer) => {
             body,
             html {
                 height: 100%;
-                margin: 0;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 font-family: system-ui;
             }
-            h1 { font-size: 2.5rem; text-align: center; color: #09639f; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25); }
+            h1 { font-size: 3em; text-align: center; color: #3b3b3b; text-shadow: 1px 1px 15px #FFFFFF; }
             #error-container { text-align: center; }
         </style>
         <script src="https://cdn.counter.dev/script.js" data-id="8bf8fc84-761f-4d08-8859-f680eadc69ce" data-utcoffset="4"></script>
@@ -2715,7 +2758,7 @@ const renderErrorPage = (message, error, refer) => {
 
     <body>
         <div id="error-container">
-            <h1>NooraNet 🌿</h1>
+            <h1>NooraNet🌿 Error</h1>
             <div id="error-message">
                 <h2>${message} ${refer 
                     ? 'Please try again' 
